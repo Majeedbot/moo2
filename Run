@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME/MAJEED
+while(true) do
+rm -fr ../.telegram-cli
+screen -S MAJEED -X kill
+screen -S MAJEED ./MAJEED
+done
